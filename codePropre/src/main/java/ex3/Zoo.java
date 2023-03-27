@@ -17,8 +17,8 @@ public class Zoo {
 	}
 	
 	public void afficherListeAnimaux(){
-		for (int i=0; i<types.size(); i++) {
-			System.out.println(noms.get(i)+" "+types.get(i)+" "+comportements.get(i));
+		for (int i=0; i<annimaux.size(); i++) {
+			System.out.println(annimaux);
 		}
 	}
 	

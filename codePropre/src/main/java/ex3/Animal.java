@@ -13,6 +13,14 @@ public class Animal {
         this.comportements = comportements;
     }
 
+    @Override
+    public String toString() {
+
+        return "types=" + types +
+                ", noms='" + noms + '\'' +
+                ", comportements=" + comportements;
+    }
+
     public TypeAnimal getTypes() {
         return types;
     }
