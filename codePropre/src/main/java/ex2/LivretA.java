@@ -12,8 +12,8 @@ public class LivretA extends CompteBancaire {
 	 * @param decouvert  représente le découvert autorisé
 	 * @param tauxRemuneration  représente le taux de rémunération du livret A
 	 */
-	public LivretA(double solde, double decouvert, double tauxRemuneration) {
-		super("LA",solde,decouvert);
+	public LivretA(double solde,  double tauxRemuneration) {
+		super("LA",solde,0);
 		this.tauxRemuneration = tauxRemuneration;
 	}
 
@@ -33,5 +33,6 @@ public class LivretA extends CompteBancaire {
 		this.setSolde( this.getSolde() + this.getSolde()*tauxRemuneration/100);
 
 	}
+
 
 }

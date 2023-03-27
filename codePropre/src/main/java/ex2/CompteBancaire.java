@@ -46,16 +46,11 @@ public class CompteBancaire {
 	 * @param montant
 	 */
 	public void debiterMontant(double montant){
-		if (type.equals("CC")){
-			if (this.solde - montant > decouvert){
-				this.solde = solde - montant;
-			}	
+
+		if (this.solde - montant >= decouvert){
+			this.solde = solde - montant;
 		}
-		else if (type.equals("LA")){
-			if (this.solde - montant > 0){
-				this.solde = solde - montant;
-			}	
-		}
+
 	}
 	
 
