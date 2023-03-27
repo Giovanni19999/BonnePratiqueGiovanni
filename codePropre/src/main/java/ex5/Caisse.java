@@ -6,14 +6,16 @@ import java.util.List;
 public class Caisse {
 
 	private String nom;
+	private int poidsMax;
 	private List<Item> items;
 
 	/** Constructeur
 	 * @param nom
 	 */
-	public Caisse(String nom) {
+	public Caisse(String nom,int poidsMax) {
 		super();
 		this.nom = nom;
+		this.poidsMax=poidsMax;
 		this.items = new ArrayList<>();
 	}
 
@@ -44,5 +46,18 @@ public class Caisse {
 	public void setItems(List<Item> items) {
 		this.items = items;
 	}
-	
+
+	/** Getter pour l'attribut poidsMax
+	 * @return the poidsMax
+	 */
+	public int getPoidsMax() {
+		return poidsMax;
+	}
+
+	/** Setter pour l'attribut poidsMax
+	 * @param poidsMin the poidsMax to set
+	 */
+	public void setPoidsMax(int poidsMin) {
+		this.poidsMax = poidsMax;
+	}
 }
