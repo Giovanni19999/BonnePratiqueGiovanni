@@ -23,7 +23,7 @@
     </logger>
 
     <!--regle de logs par defaut. Ici : niveau INFO vers la sortie standard -->
-    <root level="INFO">
+    <root level="DEBUG">
         <appender-ref ref="STDOUT" />
     </root>
     <logger name="dev.console" level="DEBUG">
