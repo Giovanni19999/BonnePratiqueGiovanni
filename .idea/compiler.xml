@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="demo-tests-unitaires" />
         <module name="logging" />
         <module name="codePropre" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="codePropre" target="1.8" />
+      <module name="demo-tests-unitaires" target="17" />
       <module name="logging" target="17" />
     </bytecodeTargetLevel>
   </component>

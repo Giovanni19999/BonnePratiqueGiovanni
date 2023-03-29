@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/BonnePratiqueGiovanni.iml" filepath="$PROJECT_DIR$/.idea/BonnePratiqueGiovanni.iml" />
       <module fileurl="file://$PROJECT_DIR$/codePropre/codePropre.iml" filepath="$PROJECT_DIR$/codePropre/codePropre.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-tests-unitaires-master/demo-tests-unitaires.iml" filepath="$PROJECT_DIR$/demo-tests-unitaires-master/demo-tests-unitaires.iml" />
       <module fileurl="file://$PROJECT_DIR$/logging.iml" filepath="$PROJECT_DIR$/logging.iml" />
     </modules>
   </component>
